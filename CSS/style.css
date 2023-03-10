@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+.blender {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 700px;
+    height:500px;
+    background-image: url(../img/LICUADORA-INOX-1.5L-PN-Y85G-JARRA-DE-VIDRIO-WARENHAUS.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.blender.active{
+    background-image: url(../img/13019f5308198e0ebc92ad195753be82.gif);
+}
+.blender-button{
+    margin: 363px auto 0px;
+    width: 60px;
+    height: 60px;
+    border-radius:50%;
+}
